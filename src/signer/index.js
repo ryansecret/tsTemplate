@@ -13,11 +13,11 @@
 // limitations under the License
 // This signer is modified from AWS V4 signer algorithm.
 
-var util = require('../util')
-var v2Credentials = require('./v2_credentials')
+const util = require('../util')
+const v2Credentials = require('./v2_credentials')
 
 
-module.exports = class SignerV2  {
+export class SignerV2  {
     constructor (request,credentials,logger=console.log) {
 
         this.signatureCache = true

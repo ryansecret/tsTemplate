@@ -21,7 +21,7 @@ class Context {
 
     buildNonce()
     {
-       this.headers.set(NOUNCEHEADER,uuid.v4())
+        this.headers.set(NOUNCEHEADER,uuid.v4())
     }
 
     setNonce(nonce)
