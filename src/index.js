@@ -1,4 +1,6 @@
-module.exports={
-    Signer:require('./signer'),
-    Context:require('./requestContext')
-}
+// const debug = require('debug');
+module.exports = class Tool {
+  hello() {
+    return 'hi';
+  }
+};

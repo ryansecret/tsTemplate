@@ -1,35 +1,28 @@
 {
-  "name": "@jdcloud/sdksignerbak",
-  "version": "1.1.1",
-  "description": "JD openapi sdk 签名算法",
+  "name": "projectname",
+  "version": "0.1.0",
+  "description": "description",
   "main": "src/index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.11.1",
-    "debug": "^4.1.1",
-    "moment": "^2.24.0",
-    "uuid": "^3.3.2"
+    "debug": "^4.1.1"
   },
+  "keywords": [],
+  "files": [],
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.4.2",
     "cz-conventional-changelog": "^2.1.0",
-    "dts-generator": "^3.0.0",
-    "eslint": "^5.0.0",
-    "jest": "^24.5.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.5.1",
+    "husky": "^0.14.3",
+    "jest": "^24.9.0",
     "lint-staged": "^7.1.1",
-    "power-assert": "^1.6.1",
-    "ts-jest": "^24.0.0",
-    "typescript": "^3.3.3333"
+    "power-assert": "^1.6.1"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts --fix",
+    "lint": "eslint . --ext .js --fix",
     "test": "jest",
-    "compile": "tsc --pretty",
-    "build": "rm -rf ./build & tsc --pretty",
-    "types": "dts-generator --project . --out ./types/index.d.ts",
     "precommit": "lint-staged"
   },
   "author": "chenjingnan@jd.com",
@@ -39,7 +32,7 @@
     "npm": ">= 5.6.0"
   },
   "lint-staged": {
-    "*.{ts}": [
+    "*.{js}": [
       "eslint --fix",
       "git add"
     ]
