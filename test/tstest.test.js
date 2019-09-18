@@ -7,14 +7,14 @@ describe('test/index.js', () => {
 
 
   it('should hi', () => {
-    assert(tool.hello() === 'hi1');
+    assert(tool.hello() === 'hi');
   });
 
 });
 describe('Array', function() {
   describe('#indexOf()', function() {
     it('should return -1 when the value is not present', function() {
-      assert.equal([1, 2, 3].indexOf(3), -1);
+      assert.notEqual([1, 2, 3].indexOf(3), -1);
     });
   });
 });
