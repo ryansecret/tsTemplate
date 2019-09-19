@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "eslint . --ext .js --fix",
-    "test": "mocha --require intelli-espower-loader",
+    "test": "mocha",
     "precommit": "lint-staged",
     "changelog": "conventional-changelog -p angular -i CHANGELOG1.md -w -r 0"
   },
