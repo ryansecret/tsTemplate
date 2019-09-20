@@ -1,6 +1,12 @@
 // const debug = require('debug');
 module.exports = class Tool {
   hello() {
-    return 'hi';
+    const name='hi'
+    return name;
+  }
+
+  es6() {
+
+    return new Set()
   }
 };

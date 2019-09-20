@@ -7,7 +7,7 @@ describe('test/index.js', () => {
 
 
   it('should hi', () => {
-    assert(tool.hello() === 'hi1');
+    assert(tool.hello() === 'hi');
   });
 
 });
