@@ -6,7 +6,6 @@ module.exports = class Tool {
   }
 
   es6() {
-
     return new Set()
   }
 };
