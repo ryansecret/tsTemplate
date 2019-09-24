@@ -21,7 +21,6 @@ module.exports = {
       }
     ]
   },
-  target:"node",
   plugins: [
     new webpack.ProgressPlugin()
   ]
